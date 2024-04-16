@@ -30,3 +30,52 @@ Consulte a tabela de instruções para obter informações sobre como escrever p
 | d | jpo | 110 1 | PC <= X SE FLAG OVERFLOW |
 | e | go | 111 0 | PC <= X |
 | f | str | 111 1 | M(X) <= AC |
+
+## 💻 Pré-Requisitos
+
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Logisim](https://img.shields.io/badge/Logisim-004BA8?style=for-the-badge&logo=logisim&logoColor=white)](https://sourceforge.net/projects/circuit/)
+
+## Instalação
+<details>
+<summary>Clique aqui!</summary>
+<p>
+
+### Pré-requisitos para instalação!
+
+![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)
+--------------------------------------------------------------------------------------------
+
+Para começar, clone o repositório do projeto em seu ambiente local. Siga a etapa abaixo:
+
+* Abra o terminal na pasta onde deseja clonar o repositório.
+
+* Clone o repositório para o seu ambiente local usando o seguinte comando:
+
+```git
+git clone https://github.com/JoaoLucasAssis/4_BITS_RISC_CPU.git
+```
+
+> :warning: obs: Certifique-se de ter o git instalado antes de executar o comando no terminal
+
+* Execute o comando a seguir para buscar todas as branches do repositório remoto:
+
+```git
+git fetch --all
+```
+
+> :bulb: obs: Para listar todas as branches, execute o comando:
+>
+> git branch -a
+
+* Crie uma branch local baseada na branch remota `develop` com o seguinte comando:
+
+```git
+git checkout develop
+```
+
+Agora você está pronto para começar a trabalhar em sua nova branch!
+</p>
+</details>
