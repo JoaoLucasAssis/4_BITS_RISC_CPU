@@ -138,3 +138,7 @@ Para traduzir um arquivo de instruções, siga estas etapas:
     </td>
   </tr>
 </table>
+
+## Licença
+
+Este projeto é distribuído sob a Licença MIT. Sinta-se à vontade para usar, modificar e distribuir este código conforme necessário.
