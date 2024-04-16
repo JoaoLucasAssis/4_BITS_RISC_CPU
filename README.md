@@ -121,3 +121,20 @@ Para traduzir um arquivo de instruções, siga estas etapas:
 * Clique para adicionar o arquivo de instruções traduzido à memória de programa (ROM).
 
 * Execute a simulação.
+
+## Colaboradores
+
+<table>
+  <tr>
+  <!-- João Lucas -->
+    <td align="center">
+      <a href="https://github.com/JoaoLucasAssis">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwxCRWlkfeigdbif83ap111RPNlGARl02wOF5OvW9zUA&s" width="100px;" height="100px;" alt="Foto do João Lucas"/><br>
+        <sub>
+          <b>JoaoLucasAssis</b>
+        </sub>
+      </a>
+    </td>
+    </td>
+  </tr>
+</table>
