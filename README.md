@@ -31,7 +31,33 @@ Consulte a tabela de instruções para obter informações sobre como escrever p
 | e | go | 111 0 | PC <= X |
 | f | str | 111 1 | M(X) <= AC |
 
-## 💻 Pré-Requisitos
+Exemplo de sequência de instruções
+
+```txt
+move 0, 0
+str 0, 1
+move 1, 0
+str 1, 1
+move 0, 1
+add 1, 1
+jump 0, 1
+str 2, 1
+move 1, 1
+str 0, 1
+move 2, 1
+str 1, 1
+goto 4, 0
+```
+
+### Tradução de Instruções
+
+O programa Python é responsável por traduzir um arquivo de texto contendo instruções acima instruções hexadecimais.
+
+O arquivo de entrada deve seguir um formato específico, com cada instrução em uma linha separada.
+
+Após a execução do programa Python, um arquivo de saída é gerado contendo as instruções traduzidas.
+
+## Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
@@ -79,3 +105,19 @@ git checkout develop
 Agora você está pronto para começar a trabalhar em sua nova branch!
 </p>
 </details>
+
+## Como usar o programa
+
+Para traduzir um arquivo de instruções, siga estas etapas:
+
+* Faça a [Instalação](#instalação) do projeto
+
+* Adicione em `input.txt` a sequência de instruções que deseja traduzir.
+
+* Após a execução do programa, abra o software Logisim.
+
+* Carregue o projeto da CPU de 4 bits.
+
+* Clique para adicionar o arquivo de instruções traduzido à memória de programa (ROM).
+
+* Execute a simulação.
