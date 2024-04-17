@@ -2,7 +2,7 @@
 
 Esta documentação descreve uma CPU de 4 bits implementada na arquitetura RISC (Reduced Instruction Set Computing).
 
-<p align=""><img  src="https://raw.githubusercontent.com/JoaoLucasAssis/4_BITS_RISC_CPU/main/4_BITS_RISC_CPU.png" alt="imagem CPU" width="600px" height="400px"/></p>
+<p align=""><img  src="https://raw.githubusercontent.com/JoaoLucasAssis/4_BITS_RISC_CPU/main/static/4_BITS_RISC_CPU.png" alt="imagem CPU" width="600px" height="400px"/></p>
 
 O projeto inclui uma tabela de instruções e um programa Python para traduzir instruções baseadas nessa tabela em instruções hexadecimais para serem inseridas na memória do programa(ROM).
 
@@ -98,13 +98,15 @@ Para traduzir um arquivo de instruções, siga estas etapas:
 
 * Adicione em `input.txt` a sequência de instruções que deseja traduzir.
 
-* Após a execução do programa, abra o software Logisim.
+Após a execução do programa, abra o software Logisim.
 
 * Carregue o projeto da CPU de 4 bits.
 
 * Clique para adicionar o arquivo de instruções traduzido à memória de programa (ROM).
 
-* Execute a simulação.
+<p align=""><img  src="https://raw.githubusercontent.com/JoaoLucasAssis/4_BITS_RISC_CPU/main/static/4_BITS_RISC_CPU.gif" alt="gif simulação CPU" width="600px" height="400px"/></p>
+
+* Execute a simulação(ctrl + K).
 
 ## Colaboradores
 
