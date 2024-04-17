@@ -2,6 +2,8 @@
 
 Esta documentação descreve uma CPU de 4 bits implementada na arquitetura RISC (Reduced Instruction Set Computing).
 
+<p align=""><img  src="https://raw.githubusercontent.com/JoaoLucasAssis/4_BITS_RISC_CPU/main/4_BITS_RISC_CPU.png" alt="imagem CPU" width="600px" height="400px"/></p>
+
 O projeto inclui uma tabela de instruções e um programa Python para traduzir instruções baseadas nessa tabela em instruções hexadecimais para serem inseridas na memória do programa(ROM).
 
 ### Tabela de Instruções
@@ -12,7 +14,7 @@ Ela é fundamental para escrever programas que serão executados pela CPU.
 
 Consulte a tabela de instruções para obter informações sobre como escrever programas compatíveis.
 
-| hexa | abreviação | binário | registrador |
+| hexadecimal | instrução | binário | registrador |
 |:---:|:---:|:---:|:---:|
 | 0 | mov | 000 0 | AC <= X |
 | 1 | mov | 000 1 | AC <= M(X) |
