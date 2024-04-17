@@ -31,24 +31,6 @@ Consulte a tabela de instruções para obter informações sobre como escrever p
 | e | go | 111 0 | PC <= X |
 | f | str | 111 1 | M(X) <= AC |
 
-Exemplo de sequência de instruções
-
-```txt
-move 0, 0
-str 0, 1
-move 1, 0
-str 1, 1
-move 0, 1
-add 1, 1
-jump 0, 1
-str 2, 1
-move 1, 1
-str 0, 1
-move 2, 1
-str 1, 1
-goto 4, 0
-```
-
 ### Tradução de Instruções
 
 O programa Python é responsável por traduzir um arquivo de texto contendo instruções acima instruções hexadecimais.
